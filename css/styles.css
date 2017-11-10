@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,300,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://daneden.github.io/animate.css/animate.min.css);
+@font-face {font-family: HACKED;src: url(/fonts/HACKED.ttf);}
+@font-face {font-family: Neou-Bold;src: url(/fonts/Neou-Bold.ttf);}
+@font-face {font-family: Exo2-Medium;src: url(/fonts/Exo2-Medium.otf);}
+@font-face {font-family: Borda;src: url(/fonts/Borda.ttf);}
+
+* {
+    box-sizing: border-box; 
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    /* position: relative; */
+    /* background: black center; */
+    width: 100%;
+    background: no-repeat center bottom;
+    background-size: cover;
+	/* background-position: center center; */
+	z-index: 1;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+video{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	/* display: none; */
+}
+
+.block {
+	width: 900px;
+	height: 350px;
+	position: absolute;
+	text-align: center;
+	top:0;
+	bottom: 75px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-shadow:1px 1px #000;
+}
+
+.realinfo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #FFF;
+}
+
+/*==============================================================================
+Download button
+==============================================================================*/
+.download {
+    font-family: "Exo2-Medium", sans-serif;
+    vertical-align:middle;
+    font-size: 18px;
+    font-weight: 100;
+    transition: all .5s ease;
+}
+
+.button {
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: 1px solid white;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.01);
+    color: white;
+}
+
+.button:hover {
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: 1px solid aqua;
+    margin: 0 auto;
+    background-color: rgba(10, 10, 60, 0.5);
+    color: #3BAFDA;
+    cursor: pointer;
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    -ms-transition: all ease .8s;
+    -o-transition: all ease .8s;
+    transition: all ease .8s;
+}
+
+/*==============================================================================
+Icons
+==============================================================================*/
+.media {
+    font-size: 35px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+a:hover,a:active{color:#3BAFDA;outline:none;}
+
+.media > a {
+    transition:color 0.3s ease;
+    margin-right: 100px;
+}
+
+.media > a#meow {
+    font-size:38px;
+}
+
+.media > a:last-child {
+    margin-right: 0;
+}
+
+.large-header {
+	overflow: hidden;
+}
+
+#weather {
+    font-family: 'Exo2-Medium', sans-serif;
+    transition: all .5s ease;
+}
+#time {
+    font-family: 'Exo2-Medium', autour_oneregular;
+    font-size: 33px;
+    color: #FFF;
+}
